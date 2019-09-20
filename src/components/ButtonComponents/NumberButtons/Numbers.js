@@ -1,6 +1,8 @@
 import React from "react";
 
 //import any components needed
+import {numbers} from "./data.js";
+
 // example of import from data.js. Note all the ../   This is how we move through folders. 
 /* 
 import { numbers } from '../../../data' 
