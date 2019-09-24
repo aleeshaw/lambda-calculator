@@ -5,7 +5,7 @@ const OperatorButton = (props) => {
   return (
     <>
       {
-        <button className="operator_button">
+        <button className="operator-button">
           <span>
             {props.operatorData.char}
           </span>

@@ -6,6 +6,29 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+button {
+  height: 3.75rem;
+  width: 3.75rem;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  border-color: transparent;
+  margin: 5px 10px;
+  box-shadow: 1px 3px rgba(31, 29, 29, 0.877);
+}
+.button-container {
+  display: flex;
+  width: 350px;
+}
+.number-button {
+  background-color: #0C4081;
+}
+.operator-button {
+  background-color: #007596;
+}
+.special-button {
+  background-color: #025BA4;
+}
 .container {
   background-color: #c00025;
   width: 100%;
@@ -16,6 +39,7 @@ code {
 }
 .display {
   margin-top: 25px;
+  margin-bottom: 15px;
   height: 100px;
   width: 450px;
   border-radius: 50px;
