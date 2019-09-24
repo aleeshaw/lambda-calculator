@@ -23,6 +23,10 @@ button {
 .number-button {
   background-color: #0C4081;
 }
+.number-button:nth-child(10) {
+  width: 8.75rem;
+  border-radius: 30px;
+}
 .operator-button {
   background-color: #007596;
 }
@@ -40,8 +44,8 @@ button {
 .display {
   margin-top: 25px;
   margin-bottom: 15px;
-  height: 100px;
-  width: 450px;
+  height: 65px;
+  width: 275px;
   border-radius: 50px;
   color: white;
   background-color: #322c2d;
@@ -50,5 +54,5 @@ button {
   justify-content: flex-end;
   align-items: flex-end;
   padding-right: 8%;
-  font-size: 5rem;
+  font-size: 3.5rem;
 }
